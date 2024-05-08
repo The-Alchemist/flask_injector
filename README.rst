@@ -57,7 +57,7 @@ The Flask-Injector public API consists of the following:
 
 * `FlaskInjector` class with the constructor taking the following parameters:
 
-  * `app`, an instance of`flask.Flask` [mandatory] – the Flask application to be used
+  * `app`, an instance of ``flask.Flask`` [mandatory] – the Flask application to be used
   * `modules`, an iterable of
     `Injector modules <https://injector.readthedocs.io/en/latest/api.html#injector.Binder.install>`_ [optional]
     – the Injector modules to be used.
